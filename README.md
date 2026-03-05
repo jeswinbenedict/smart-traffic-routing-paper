@@ -39,4 +39,4 @@ Federated Learning · 5G NR-V2X
 
 Department of Computer Science and Engineering
 
-Vellore Institute of Technology, Andhra Pradesh
+Vellore Institute of Technology
