@@ -41,4 +41,4 @@ Department of Computer Science and Engineering
 
 Vellore Institute of Technology
 
-Tamil Nadu, India
+Andhra Pradesh, India
