@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="images/banner.png" width="100%" alt="Smart City Routing Network">
+<img src="banner.png" width="100%" alt="Smart City Routing Network">
 
 <br/><br/>
 
@@ -20,7 +20,7 @@ This work takes a first-principles view of routing in vehicular networks (VANETs
 
 <div align="center">
 <br/>
-<img src="images/vehicle.png" width="80%" alt="Autonomous Vehicle Communication">
+<img src="vehicle.png" width="80%" alt="Autonomous Vehicle Communication">
 <br/><br/>
 </div>
 
@@ -30,14 +30,14 @@ Routing choices are grouped into four families, each with a clear operating enve
 
 | Protocol Family                    | Strengths                    | Weaknesses                                | Verdict              |
 |------------------------------------|------------------------------|-------------------------------------------|----------------------|
-| Topology-Based (AODV, DSDV)       | Simple, well-studied        | Control overhead, collapses > 50 veh/km   | Legacy / fallback    |
-| Geographic (GPSR, GyTAR)          | Low latency, scalable       | Needs maps, struggles in sparse networks  | Current best option  |
-| Broadcast / Geocast               | Rapid safety dissemination  | Broadcast storms if unmanaged             | Safety-specific      |
-| Learning-Based (Deep RL, etc.)    | Adapts to live conditions   | Training, sim-to-real gap, compute cost   | Emerging / near-term |
+| Topology-Based (AODV, DSDV)        | Simple, well-studied        | Control overhead, collapses > 50 veh/km   | Legacy / fallback    |
+| Geographic (GPSR, GyTAR)           | Low latency, scalable       | Needs maps, struggles in sparse networks  | Current best option  |
+| Broadcast / Geocast                | Rapid safety dissemination  | Broadcast storms if unmanaged             | Safety-specific      |
+| Learning-Based (Deep RL, etc.)     | Adapts to live conditions   | Training, sim-to-real gap, compute cost   | Emerging / near-term |
 
 <div align="center">
 <br/>
-<img src="images/protocols.png" width="80%" alt="Routing Protocol Intelligence">
+<img src="protocols.png" width="80%" alt="Routing Protocol Intelligence">
 <br/><br/>
 </div>
 
@@ -69,6 +69,8 @@ Routing choices are grouped into four families, each with a clear operating enve
 Department of Computer Science and Engineering  
 Vellore Institute of Technology, Andhra Pradesh, India  
 
-<a href="https://github.com/jeswinbenedict">GitHub</a>
+<a href="https://github.com/jeswinbenedict">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+</a>
 
 </div>
