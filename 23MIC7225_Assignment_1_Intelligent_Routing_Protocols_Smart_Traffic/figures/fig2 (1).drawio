@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="V-YaGsdg2YHpOiLXEk43">
+    <mxGraphModel dx="1030" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F4E79;strokeColor=#1F4E79;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=10;" value="Vehicular Routing Protocols" vertex="1">
+          <mxGeometry height="55" width="220" x="580" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="topology" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#2E75B6;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=10;" value="Topology-Based" vertex="1">
+          <mxGeometry height="55" width="160" x="60" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="geographic" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#2E75B6;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=10;" value="Geographic /&#xa;Position-Based" vertex="1">
+          <mxGeometry height="65" width="160" x="390" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="broadcast" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#2E75B6;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=10;" value="Broadcast &amp;&#xa;Geocast" vertex="1">
+          <mxGeometry height="65" width="160" x="760" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="learning" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E75B6;strokeColor=#2E75B6;fontColor=#ffffff;fontSize=11;fontStyle=1;arcSize=10;" value="Learning-Based&#xa;Adaptive" vertex="1">
+          <mxGeometry height="65" width="160" x="1110" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="proactive" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Proactive&#xa;DSDV · OLSR" vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="reactive" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Reactive&#xa;AODV · DSR" vertex="1">
+          <mxGeometry height="60" width="140" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="greedy" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Greedy&#xa;GPSR · GPCR" vertex="1">
+          <mxGeometry height="60" width="140" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="roadaware" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Road-Aware&#xa;GyTAR · VADD" vertex="1">
+          <mxGeometry height="60" width="140" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="suppression" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Suppression&#xa;Distance · Prob." vertex="1">
+          <mxGeometry height="60" width="150" x="710" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="networkcoding" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Network&#xa;Coding" vertex="1">
+          <mxGeometry height="60" width="140" x="900" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="reinforcement" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Reinforcement&#xa;Learning" vertex="1">
+          <mxGeometry height="60" width="150" x="1070" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="deepneural" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;align=center;" value="Deep Neural&#xa;Networks" vertex="1">
+          <mxGeometry height="60" width="150" x="1260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e-root-topology" edge="1" parent="1" source="root" style="endArrow=block;endFill=1;html=1;" target="topology" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-root-geo" edge="1" parent="1" source="root" style="endArrow=block;endFill=1;html=1;" target="geographic" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-root-broadcast" edge="1" parent="1" source="root" style="endArrow=block;endFill=1;html=1;" target="broadcast" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-root-learning" edge="1" parent="1" source="root" style="endArrow=block;endFill=1;html=1;" target="learning" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-topo-pro" edge="1" parent="1" source="topology" style="endArrow=block;endFill=1;html=1;" target="proactive" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-topo-react" edge="1" parent="1" source="topology" style="endArrow=block;endFill=1;html=1;" target="reactive" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-geo-greedy" edge="1" parent="1" source="geographic" style="endArrow=block;endFill=1;html=1;" target="greedy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-geo-road" edge="1" parent="1" source="geographic" style="endArrow=block;endFill=1;html=1;" target="roadaware" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-broad-supp" edge="1" parent="1" source="broadcast" style="endArrow=block;endFill=1;html=1;" target="suppression" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-broad-net" edge="1" parent="1" source="broadcast" style="endArrow=block;endFill=1;html=1;" target="networkcoding" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-learn-rl" edge="1" parent="1" source="learning" style="endArrow=block;endFill=1;html=1;" target="reinforcement" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-learn-dnn" edge="1" parent="1" source="learning" style="endArrow=block;endFill=1;html=1;" target="deepneural" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
